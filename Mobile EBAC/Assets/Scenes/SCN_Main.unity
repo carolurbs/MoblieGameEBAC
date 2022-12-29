@@ -1149,6 +1149,11 @@ Transform:
   m_Father: {fileID: 808689855}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1601476197 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4290515375130187200, guid: e514c3606c7eec948a80411b11df44ac, type: 3}
+  m_PrefabInstance: {fileID: 6401773711078895402}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1660988265 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4111038562998938987, guid: bd00300d44fdd1c49b49afb0bfc93ad3, type: 3}
@@ -1524,6 +1529,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 694664479}
     m_Modifications:
+    - target: {fileID: 1633927695917914068, guid: e514c3606c7eec948a80411b11df44ac, type: 3}
+      propertyPath: duration
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1633927695917914068, guid: e514c3606c7eec948a80411b11df44ac, type: 3}
+      propertyPath: graphicItem
+      value: 
+      objectReference: {fileID: 1601476197}
+    - target: {fileID: 1633927695917914068, guid: e514c3606c7eec948a80411b11df44ac, type: 3}
+      propertyPath: amountToSpeed
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 4290515375130187200, guid: e514c3606c7eec948a80411b11df44ac, type: 3}
       propertyPath: m_Name
       value: PFB_PowerUp
@@ -1571,10 +1588,6 @@ PrefabInstance:
     - target: {fileID: 4290515375130187263, guid: e514c3606c7eec948a80411b11df44ac, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5027917039102877876, guid: e514c3606c7eec948a80411b11df44ac, type: 3}
-      propertyPath: duration
-      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e514c3606c7eec948a80411b11df44ac, type: 3}

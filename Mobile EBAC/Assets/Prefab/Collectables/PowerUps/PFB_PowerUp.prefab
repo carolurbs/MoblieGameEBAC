@@ -105,7 +105,7 @@ GameObject:
   - component: {fileID: 4290515375130187263}
   - component: {fileID: 4290515375130187260}
   - component: {fileID: 4290515375130187202}
-  - component: {fileID: 5027917039102877876}
+  - component: {fileID: 1633927695917914068}
   m_Layer: 0
   m_Name: PFB_PowerUp
   m_TagString: Untagged
@@ -149,7 +149,7 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 1
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &5027917039102877876
+--- !u!114 &1633927695917914068
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -158,10 +158,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 4290515375130187200}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d4cb701f37b828f4d986e2bd6b0f946f, type: 3}
+  m_Script: {fileID: 11500000, guid: 0b025aa790d1c6d40a0db819e98c8fc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  compareTag: Player
-  timeToHide: 3
-  graphicItem: {fileID: 4290515374355655810}
-  duration: 0
