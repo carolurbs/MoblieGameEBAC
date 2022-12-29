@@ -81,6 +81,7 @@ GameObject:
   - component: {fileID: 4111038563835270185}
   - component: {fileID: 4111038563835270189}
   - component: {fileID: 4111038563835270186}
+  - component: {fileID: 1432531038296318607}
   m_Layer: 0
   m_Name: Coin_Mesh
   m_TagString: Untagged
@@ -151,3 +152,15 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!122 &1432531038296318607
+Halo:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4111038563835270166}
+  m_Enabled: 1
+  m_Color:
+    serializedVersion: 2
+    rgba: 4278674151
+  m_Size: 1
