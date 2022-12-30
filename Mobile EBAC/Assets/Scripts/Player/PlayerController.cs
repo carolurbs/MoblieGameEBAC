@@ -2,7 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using Ebac.Core.Singleton; 
+using Ebac.Core.Singleton;
+using DG.Tweening;
 
 public class PlayerController : Singleton<PlayerController>
 {
@@ -17,8 +18,10 @@ public class PlayerController : Singleton<PlayerController>
     private Vector3 _pos;
     private bool _canRun;
     private float _currentSpeed;
+    public Vector3 _startPosition;
     public void Start()
     {
+        _startPosition = transform.position;
         _canRun = true;
         ResetSpeed();
     }
@@ -75,5 +78,16 @@ public class PlayerController : Singleton<PlayerController>
         invencible = b; 
     }
 
+    public void ChangeHeight(float amount, float duration, float animationDuration, Ease ease)
+    {
+
+        transform.DOMoveY(_startPosition.y + amount, animationDuration).SetEase(ease);
+        Invoke(nameof(ResetHeight), duration);
+    }
+    public void ResetHeight()
+    {
+        transform.DOMoveY(_startPosition.y, .1f);
+
+    }
     #endregion
 }
