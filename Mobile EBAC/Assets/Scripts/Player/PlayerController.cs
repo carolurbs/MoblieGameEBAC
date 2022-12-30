@@ -2,9 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using Ebac.Core.Singleton; 
 
-
-public class PlayerController : MonoBehaviour
+public class PlayerController : Singleton<PlayerController>
 {
     public float speed = 1f;
     [Header("LERP")]
@@ -12,15 +12,14 @@ public class PlayerController : MonoBehaviour
     public float lerpSpeed = 1f;
     public string tagToCheckEnemy = "Enemy";
     public string tagToCheckEndLine = "EndLine";
-    public GameObject EndGameScreen;
-
+    //privates
     private Vector3 _pos;
     private bool _canRun;
-
+    private float _currentSpeed;
     public void Start()
     {
         _canRun = true;
-
+        ResetSpeed();
     }
     void Update()
     {
@@ -54,4 +53,15 @@ public class PlayerController : MonoBehaviour
         SceneManager.LoadScene(0);
 
     }
+
+    #region Power Ups
+    public void PowerUpSpeedUp (float f)
+    {
+        _currentSpeed = f; 
+    }
+    public void ResetSpeed()
+    {
+        _currentSpeed = speed; 
+    }
+    #endregion
 }
