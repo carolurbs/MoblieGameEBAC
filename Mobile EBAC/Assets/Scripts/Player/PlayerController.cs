@@ -12,6 +12,7 @@ public class PlayerController : Singleton<PlayerController>
     public float lerpSpeed = 1f;
     public string tagToCheckEnemy = "Enemy";
     public string tagToCheckEndLine = "EndLine";
+    public bool invencible = false;
     //privates
     private Vector3 _pos;
     private bool _canRun;
@@ -34,8 +35,12 @@ public class PlayerController : Singleton<PlayerController>
     {
         if (collision.transform.tag == tagToCheckEnemy)
         {
-            _canRun = false;
-            Invoke("EndGame", .5f);
+           if (!invencible)
+            {
+                Invoke("EndGame", .5f);
+                _canRun = false;
+
+            }
         }
 
     }
@@ -62,6 +67,13 @@ public class PlayerController : Singleton<PlayerController>
     public void ResetSpeed()
     {
         _currentSpeed = speed; 
+
     }
+
+    public void SetInvencible(bool  b = true)
+    {
+        invencible = b; 
+    }
+
     #endregion
 }
