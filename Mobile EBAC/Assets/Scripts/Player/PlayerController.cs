@@ -14,6 +14,7 @@ public class PlayerController : Singleton<PlayerController>
     public string tagToCheckEnemy = "Enemy";
     public string tagToCheckEndLine = "EndLine";
     public bool invencible = false;
+    public GameObject coinCollector; 
     //privates
     private Vector3 _pos;
     private bool _canRun;
@@ -88,6 +89,11 @@ public class PlayerController : Singleton<PlayerController>
     {
         transform.DOMoveY(_startPosition.y, .1f);
 
+    }
+
+    public void ChangeCoinCollectorSize(float amount )
+    {
+        coinCollector.transform.localScale= Vector3.one * amount;
     }
     #endregion
 }
