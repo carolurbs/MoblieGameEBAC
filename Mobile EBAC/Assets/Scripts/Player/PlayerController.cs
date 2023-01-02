@@ -23,7 +23,7 @@ public class PlayerController : Singleton<PlayerController>
     public void Start()
     {
         _startPosition = transform.position;
-        _canRun = false;
+        _canRun = true;
         ResetSpeed();
     }
     void Update()
@@ -42,6 +42,7 @@ public class PlayerController : Singleton<PlayerController>
            if (!invencible)
             {
                 Invoke("EndGame", .5f);
+                _canRun = false;
 
             }
         }
@@ -59,14 +60,9 @@ public class PlayerController : Singleton<PlayerController>
     public void EndGame()
     {
         SceneManager.LoadScene(0);
-        _canRun = false;
 
     }
-    public void StartGame()
-    {
-        _canRun = true;
 
-    }
     #region Power Ups
     public void PowerUpSpeedUp (float f)
     {
