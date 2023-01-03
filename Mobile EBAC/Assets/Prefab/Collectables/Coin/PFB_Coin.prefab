@@ -69,7 +69,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   compareTag: CoinCollector
   timeToHide: 3
-  graphicItem: {fileID: 4111038563835270166}
+  graphicItem: {fileID: 4111038562998938964}
+  collect: 0
+  lerp: 5
+  minDistance: 1
 --- !u!1 &4111038563835270166
 GameObject:
   m_ObjectHideFlags: 0
