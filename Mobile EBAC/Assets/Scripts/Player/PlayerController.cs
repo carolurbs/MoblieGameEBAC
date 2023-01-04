@@ -13,17 +13,23 @@ public class PlayerController : Singleton<PlayerController>
     public float lerpSpeed = 1f;
     public string tagToCheckEnemy = "Enemy";
     public string tagToCheckEndLine = "EndLine";
-    public bool invencible = false;
+    public bool invencible;
     public GameObject coinCollector; 
     //privates
     private Vector3 _pos;
     private bool _canRun;
     private float _currentSpeed;
     public Vector3 _startPosition;
+
+    [Header("Animation Payer")]
+    public string triggerRun = "Run";
+    public string triggerDeath = "Death";
+    public Animator animator;
     public void Start()
     {
         _startPosition = transform.position;
-        _canRun = true;
+        _canRun = false;
+        invencible = false;
         ResetSpeed();
     }
     void Update()
@@ -41,14 +47,19 @@ public class PlayerController : Singleton<PlayerController>
         {
            if (!invencible)
             {
-                Invoke("EndGame", .5f);
+                MoveBack();
+                animator.SetTrigger(triggerDeath);
                 _canRun = false;
+                Invoke("EndGame", 2f);
 
             }
         }
 
     }
-
+    private void MoveBack()
+    {
+        transform.DOMoveZ(-1f,.3f).SetRelative(); 
+    }
     private void OnTriggerEnter(Collider collision)
     {
         if (collision.transform.CompareTag(tagToCheckEndLine))
@@ -62,11 +73,19 @@ public class PlayerController : Singleton<PlayerController>
         SceneManager.LoadScene(0);
 
     }
+    public void PlayButton()
+    {
 
+    _canRun= true;
+        animator.SetTrigger(triggerRun);
+
+
+    }
     #region Power Ups
     public void PowerUpSpeedUp (float f)
     {
         _currentSpeed = f; 
+        animator.speed= 2;
     }
     public void ResetSpeed()
     {
