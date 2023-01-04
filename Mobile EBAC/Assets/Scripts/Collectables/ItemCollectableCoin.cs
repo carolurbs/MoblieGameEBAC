@@ -13,18 +13,7 @@ public class ItemCollectableCoin : ItemCollectableBase
         base.OnCollect();
         collect= true;
     }
-    public void Update()
-    {
-        if (collect)
-        {
-        transform.position = Vector3.Lerp(transform.position, PlayerController.Instance.transform.position, lerp * Time.deltaTime);
-            if (Vector3.Distance(transform.position, PlayerController.Instance.transform.position) < minDistance)
-            {
-                HideItens();
-                Destroy(gameObject);
-            }
-        }
-    }
+  
     protected virtual void HideItens()
     {
         if (graphicItem != null) graphicItem.SetActive(false);
