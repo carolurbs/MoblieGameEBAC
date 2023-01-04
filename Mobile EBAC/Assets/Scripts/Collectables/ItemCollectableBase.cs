@@ -28,7 +28,7 @@ public class ItemCollectableBase: MonoBehaviour
         Debug.Log("Collect");
         if(graphicItem != null) graphicItem.SetActive(false);
         Invoke("HideObject", timeToHide);
-        gameObject.SetActive(false);
+                gameObject.SetActive(false);
         OnCollect();
     }
     private void HideObject()
