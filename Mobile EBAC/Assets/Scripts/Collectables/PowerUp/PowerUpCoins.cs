@@ -5,7 +5,7 @@ using UnityEngine;
 public class PowerUpCoins : PowerUpBase
 {
     [Header("Coin Collector")]
-    public float sizeAmount = 7; 
+    public float sizeAmount = 7;
     protected override void StartPowerUp()
     {
         base.StartPowerUp();
