@@ -20,12 +20,14 @@ public class PlayerController : Singleton<PlayerController>
     private bool _canRun;
     private float _currentSpeed;
     public Vector3 _startPosition;
+    [SerializeField] private BounceHelper _bounce;
 
     [Header("Animation Payer")]
     public string triggerRun = "Run";
     public string triggerDeath = "Death";
     public Animator animator;
-
+    [Header("Limits")]
+    public Vector2 limits =  new Vector2(-4, 4);
     public void Start()
     {
         _startPosition = transform.position;
@@ -39,8 +41,14 @@ public class PlayerController : Singleton<PlayerController>
         _pos = target.position;
         _pos.y = transform.position.y;
         _pos.z = transform.position.z;
+        if (_pos.x < limits.x) _pos.x = limits.x;
+        else if (_pos.x> limits.y) _pos.x = limits.y;
         transform.position = Vector3.Lerp(transform.position, _pos, lerpSpeed * Time.deltaTime);
         transform.Translate(transform.forward * speed * Time.deltaTime);
+    }
+    public void Bounce()
+    {
+        _bounce.Bounce();
     }
     private void OnCollisionEnter(Collision collision)
     {

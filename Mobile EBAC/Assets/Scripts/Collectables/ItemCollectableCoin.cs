@@ -11,6 +11,7 @@ public class ItemCollectableCoin : ItemCollectableBase
     {
         base.OnCollect();
         collect= true;
+        PlayerController.Instance.Bounce();
     }
   
     protected virtual void HideItens()
