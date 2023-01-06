@@ -51,7 +51,7 @@ public class PlayerController : Singleton<PlayerController>
                 MoveBack();
                 animator.SetTrigger(triggerDeath);
                 _canRun = false;
-                Invoke("EndGame", 3f);
+                Invoke("EndGame", 5f);
 
             }
         }
@@ -65,16 +65,10 @@ public class PlayerController : Singleton<PlayerController>
     {
         if (collision.transform.CompareTag(tagToCheckEndLine))
         {
-            if (LevelManager.Instance._index < 3)
             {
-                LevelManager.Instance.SpawnNextLevel();
-                this.transform.position = _startPosition;
+                Invoke("EndGame", .5f);
             }
-            else if (LevelManager.Instance._index >= 3)
-            {
-            Invoke("EndGame", .5f);
-
-            }
+           
 
         }
     }

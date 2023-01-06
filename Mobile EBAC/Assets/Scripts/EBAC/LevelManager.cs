@@ -1,9 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using Ebac.Core.Singleton;
 
-public class LevelManager : Singleton<LevelManager>
+public class LevelManager : MonoBehaviour
 {
     public Transform container;
     public List<GameObject> levels;
@@ -12,24 +11,29 @@ public class LevelManager : Singleton<LevelManager>
     public void Awake()
     {
         SpawnNextLevel();
+        ColorManager.Instance.ChangeColor();
+
     }
     public void SpawnNextLevel()
     {
         if (_currentLevel == null)
         {
             Destroy(_currentLevel);
-            _index++;
-            if(_index>= levels.Count)
-            {
-                ResetLevelIndex();
-            }
+            RandomizeLevelIndex();         
         }
       _currentLevel = Instantiate(levels[_index], container);
         _currentLevel.transform.localPosition = Vector3.zero; 
 
     }
-    private void ResetLevelIndex()
+    private void RandomizeLevelIndex()
     {
-        _index = 0;
+        _index = Random.Range(0, levels.Count);
+    }
+    private void Update()
+    {
+        if(Input.GetKey(KeyCode.Space))
+        {
+            SpawnNextLevel();
+        }
     }
 }
