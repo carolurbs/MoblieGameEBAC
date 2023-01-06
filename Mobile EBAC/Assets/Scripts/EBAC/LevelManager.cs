@@ -6,13 +6,13 @@ public class LevelManager : MonoBehaviour
 {
     public Transform container;
     public List<GameObject> levels;
-   [SerializeField] private int _index;
+    public int _index;
     private GameObject _currentLevel; 
     public void Awake()
     {
         SpawnNextLevel();
     }
-    private void SpawnNextLevel()
+    public void SpawnNextLevel()
     {
         if (_currentLevel == null)
         {

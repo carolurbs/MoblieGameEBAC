@@ -25,6 +25,9 @@ public class PlayerController : Singleton<PlayerController>
     public string triggerRun = "Run";
     public string triggerDeath = "Death";
     public Animator animator;
+
+    [Header("lEVEL")]
+    public LevelManager levelManager;
     public void Start()
     {
         _startPosition = transform.position;
@@ -50,7 +53,7 @@ public class PlayerController : Singleton<PlayerController>
                 MoveBack();
                 animator.SetTrigger(triggerDeath);
                 _canRun = false;
-                Invoke("EndGame", 2f);
+                Invoke("EndGame", 3f);
 
             }
         }
@@ -64,7 +67,16 @@ public class PlayerController : Singleton<PlayerController>
     {
         if (collision.transform.CompareTag(tagToCheckEndLine))
         {
+            if (levelManager._index < 3)
+            {
+                levelManager.SpawnNextLevel();
+                _startPosition=transform.position;
+            }
+            else if (levelManager._index >= 3)
+            {
             Invoke("EndGame", .5f);
+
+            }
 
         }
     }
