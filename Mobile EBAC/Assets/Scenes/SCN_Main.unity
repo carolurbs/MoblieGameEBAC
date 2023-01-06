@@ -1186,7 +1186,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
-  m_LocalRotation: {x: 0.120215304, y: -0.000000016564208, z: 0.0000000020058182, w: 0.99274784}
+  m_LocalRotation: {x: 0.12021528, y: 0.000000018140616, z: -0.0000000021967101, w: 0.99274784}
   m_LocalPosition: {x: 0, y: 2.213, z: -114.14}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -1658,13 +1658,12 @@ MonoBehaviour:
   lerpSpeed: 9
   tagToCheckEnemy: Enemy
   tagToCheckEndLine: EndLine
-  invencible: 0
+  invencible: 1
   coinCollector: {fileID: 1374351371}
   _startPosition: {x: 0, y: 0, z: 0}
   triggerRun: Run
   triggerDeath: Death
   animator: {fileID: 1553192297}
-  levelManager: {fileID: 1417681168}
 --- !u!54 &1593731464
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1818,7 +1817,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1745103273}
-  m_LocalRotation: {x: 0.120215304, y: -0.000000016564208, z: 0.0000000020058182, w: 0.99274784}
+  m_LocalRotation: {x: 0.12021528, y: 0.000000018140616, z: -0.0000000021967101, w: 0.99274784}
   m_LocalPosition: {x: 0, y: 1.0300001, z: -114.14}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
