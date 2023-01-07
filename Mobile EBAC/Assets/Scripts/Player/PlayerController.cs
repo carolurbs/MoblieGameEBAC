@@ -28,6 +28,11 @@ public class PlayerController : Singleton<PlayerController>
     public Animator animator;
     [Header("Limits")]
     public Vector2 limits =  new Vector2(-4, 4);
+
+    [Header("Audio Source")]
+    public AudioSource failure;
+    public AudioSource victory;
+
     public void Start()
     {
         _startPosition = transform.position;
@@ -57,6 +62,7 @@ public class PlayerController : Singleton<PlayerController>
            if (!invencible)
             {
                 MoveBack();
+                if (failure != null) failure.Play();
                 animator.SetTrigger(triggerDeath);
                 _canRun = false;
                 Invoke("EndGame", 5f);
@@ -74,6 +80,8 @@ public class PlayerController : Singleton<PlayerController>
         if (collision.transform.CompareTag(tagToCheckEndLine))
         {
             {
+                if (victory!= null) victory.Play();
+
                 Invoke("EndGame", .5f);
             }
            

@@ -4,7 +4,11 @@ using UnityEngine;
 using Ebac.Core.Singleton;
 public class UIManager : Singleton<UIManager>
 {
-    public GameObject endGameUI;
-    public GameObject levelCompletedUI;
-    public GameObject hudUI;
+    public AudioSource audioUI;
+    
+    public void PlayAudio()
+    {
+        if(audioUI != null)
+        audioUI.Play();
+    }
 }
