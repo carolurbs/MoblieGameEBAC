@@ -639,7 +639,7 @@ AudioSource:
   m_PlayOnAwake: 1
   m_Volume: 0.177
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -1279,18 +1279,6 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1593731463}
-        m_TargetAssemblyTypeName: PlayerController, Assembly-CSharp
-        m_MethodName: Bounce
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
       - m_Target: {fileID: 959702643}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
@@ -1478,7 +1466,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
-  m_LocalRotation: {x: 0.120215304, y: -0.000000016564208, z: 0.0000000020058182, w: 0.99274784}
+  m_LocalRotation: {x: 0.12021528, y: 0.000000018140616, z: -0.0000000021967101, w: 0.99274784}
   m_LocalPosition: {x: 0, y: 2.213, z: -126.27}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -1926,6 +1914,7 @@ GameObject:
   - component: {fileID: 1593731465}
   - component: {fileID: 1593731464}
   - component: {fileID: 1593731463}
+  - component: {fileID: 1593731469}
   m_Layer: 0
   m_Name: Player Container
   m_TagString: Player
@@ -1953,7 +1942,7 @@ MonoBehaviour:
   invencible: 1
   coinCollector: {fileID: 1374351371}
   _startPosition: {x: 0, y: 0, z: 0}
-  _bounce: {fileID: 5341490707471308383}
+  _bounce: {fileID: 1593731469}
   triggerRun: Run
   triggerDeath: Death
   animator: {fileID: 1553192297}
@@ -2054,6 +2043,21 @@ Transform:
   m_Father: {fileID: 808689855}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1593731469
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1593731462}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 966980f69b35c7e42bded5f785477ee7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scaleDuration: 0.2
+  scaleBounce: 1.2
+  ease: 27
 --- !u!1 &1628203152
 GameObject:
   m_ObjectHideFlags: 0
@@ -2291,7 +2295,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1745103273}
-  m_LocalRotation: {x: 0.120215304, y: -0.000000016564208, z: 0.0000000020058182, w: 0.99274784}
+  m_LocalRotation: {x: 0.12021528, y: 0.000000018140616, z: -0.0000000021967101, w: 0.99274784}
   m_LocalPosition: {x: 0, y: 1.0300001, z: -114.14}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -2328,7 +2332,6 @@ Transform:
   m_Children:
   - {fileID: 1417681169}
   - {fileID: 1637710188}
-  - {fileID: 1146928207976143111}
   - {fileID: 2129419278}
   m_Father: {fileID: 0}
   m_RootOrder: 6
@@ -2573,7 +2576,7 @@ Transform:
   - {fileID: 1900799030}
   - {fileID: 1628203153}
   m_Father: {fileID: 1806841115}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2145131330
 GameObject:
@@ -2675,49 +2678,3 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
---- !u!4 &1146928207976143111
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8795885171892086060}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 16.280987, y: 30.449947, z: -73.459366}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1806841115}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &5341490707471308383
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8795885171892086060}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 966980f69b35c7e42bded5f785477ee7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  scaleDuration: 0.2
-  scaleBounce: 1.2
-  ease: 27
---- !u!1 &8795885171892086060
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1146928207976143111}
-  - component: {fileID: 5341490707471308383}
-  m_Layer: 0
-  m_Name: BounceHelper
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
