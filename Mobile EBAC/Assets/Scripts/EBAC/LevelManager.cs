@@ -29,11 +29,5 @@ public class LevelManager : MonoBehaviour
     {
         _index = Random.Range(0, levels.Count);
     }
-    private void Update()
-    {
-        if(Input.GetKey(KeyCode.Space))
-        {
-            SpawnNextLevel();
-        }
-    }
+   
 }

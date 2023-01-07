@@ -27,7 +27,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4593031325780547716}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.08502802, y: 0.89, z: -105.5}
+  m_LocalPosition: {x: 0.08502802, y: 1.35, z: -48.2}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 6717223431034870166}
@@ -146,8 +146,6 @@ MonoBehaviour:
   timeToHide: 3
   graphicItem: {fileID: 5909259161316731928}
   collect: 0
-  lerp: 5
-  minDistance: 1
 --- !u!95 &7358754382499867694
 Animator:
   serializedVersion: 3
@@ -239,8 +237,6 @@ MonoBehaviour:
   timeToHide: 3
   graphicItem: {fileID: 5909259161333932685}
   collect: 0
-  lerp: 5
-  minDistance: 1
 --- !u!95 &7358754382517199547
 Animator:
   serializedVersion: 3
@@ -332,8 +328,6 @@ MonoBehaviour:
   timeToHide: 3
   graphicItem: {fileID: 5909259161454384480}
   collect: 0
-  lerp: 5
-  minDistance: 1
 --- !u!95 &7358754382100780374
 Animator:
   serializedVersion: 3
@@ -426,8 +420,6 @@ MonoBehaviour:
   timeToHide: 3
   graphicItem: {fileID: 5909259161659637321}
   collect: 0
-  lerp: 5
-  minDistance: 1
 --- !u!95 &7358754382834351743
 Animator:
   serializedVersion: 3
@@ -519,8 +511,6 @@ MonoBehaviour:
   timeToHide: 3
   graphicItem: {fileID: 5909259161696178155}
   collect: 0
-  lerp: 5
-  minDistance: 1
 --- !u!95 &7358754382812205021
 Animator:
   serializedVersion: 3
@@ -612,8 +602,6 @@ MonoBehaviour:
   timeToHide: 3
   graphicItem: {fileID: 5909259161713300389}
   collect: 0
-  lerp: 5
-  minDistance: 1
 --- !u!95 &7358754382829425555
 Animator:
   serializedVersion: 3
@@ -705,8 +693,6 @@ MonoBehaviour:
   timeToHide: 3
   graphicItem: {fileID: 5909259161772746267}
   collect: 0
-  lerp: 5
-  minDistance: 1
 --- !u!95 &7358754382888740397
 Animator:
   serializedVersion: 3
@@ -798,8 +784,6 @@ MonoBehaviour:
   timeToHide: 3
   graphicItem: {fileID: 5909259161815377071}
   collect: 0
-  lerp: 5
-  minDistance: 1
 --- !u!95 &7358754382998611097
 Animator:
   serializedVersion: 3
@@ -891,8 +875,6 @@ MonoBehaviour:
   timeToHide: 3
   graphicItem: {fileID: 5909259161907546947}
   collect: 0
-  lerp: 5
-  minDistance: 1
 --- !u!95 &7358754383023672181
 Animator:
   serializedVersion: 3
@@ -984,8 +966,6 @@ MonoBehaviour:
   timeToHide: 3
   graphicItem: {fileID: 5909259161924166724}
   collect: 0
-  lerp: 5
-  minDistance: 1
 --- !u!95 &7358754382570529906
 Animator:
   serializedVersion: 3
@@ -1077,8 +1057,6 @@ MonoBehaviour:
   timeToHide: 3
   graphicItem: {fileID: 5909259162002192248}
   collect: 0
-  lerp: 5
-  minDistance: 1
 --- !u!95 &7358754382640166734
 Animator:
   serializedVersion: 3
@@ -1170,8 +1148,6 @@ MonoBehaviour:
   timeToHide: 3
   graphicItem: {fileID: 5909259162022272523}
   collect: 0
-  lerp: 5
-  minDistance: 1
 --- !u!95 &7358754382601395773
 Animator:
   serializedVersion: 3
@@ -1263,8 +1239,6 @@ MonoBehaviour:
   timeToHide: 3
   graphicItem: {fileID: 5909259162107461348}
   collect: 0
-  lerp: 5
-  minDistance: 1
 --- !u!95 &7358754382686617298
 Animator:
   serializedVersion: 3
@@ -1356,8 +1330,6 @@ MonoBehaviour:
   timeToHide: 3
   graphicItem: {fileID: 5909259162118631613}
   collect: 0
-  lerp: 5
-  minDistance: 1
 --- !u!95 &7358754382689398923
 Animator:
   serializedVersion: 3
@@ -1449,8 +1421,6 @@ MonoBehaviour:
   timeToHide: 3
   graphicItem: {fileID: 5909259162148941879}
   collect: 0
-  lerp: 5
-  minDistance: 1
 --- !u!95 &7358754382795337729
 Animator:
   serializedVersion: 3
@@ -1542,8 +1512,6 @@ MonoBehaviour:
   timeToHide: 3
   graphicItem: {fileID: 5909259162256889487}
   collect: 0
-  lerp: 5
-  minDistance: 1
 --- !u!95 &7358754381292508857
 Animator:
   serializedVersion: 3
@@ -1635,8 +1603,6 @@ MonoBehaviour:
   timeToHide: 3
   graphicItem: {fileID: 5909259162355552631}
   collect: 0
-  lerp: 5
-  minDistance: 1
 --- !u!95 &7358754381382914369
 Animator:
   serializedVersion: 3
@@ -1728,8 +1694,6 @@ MonoBehaviour:
   timeToHide: 3
   graphicItem: {fileID: 5909259162649787465}
   collect: 0
-  lerp: 5
-  minDistance: 1
 --- !u!95 &7358754381073169535
 Animator:
   serializedVersion: 3
@@ -1821,8 +1785,6 @@ MonoBehaviour:
   timeToHide: 3
   graphicItem: {fileID: 5909259162665375035}
   collect: 0
-  lerp: 5
-  minDistance: 1
 --- !u!95 &7358754381155865869
 Animator:
   serializedVersion: 3
@@ -1914,8 +1876,6 @@ MonoBehaviour:
   timeToHide: 3
   graphicItem: {fileID: 5909259162765604245}
   collect: 0
-  lerp: 5
-  minDistance: 1
 --- !u!95 &7358754381725758883
 Animator:
   serializedVersion: 3
@@ -2007,8 +1967,6 @@ MonoBehaviour:
   timeToHide: 3
   graphicItem: {fileID: 5909259162792507362}
   collect: 0
-  lerp: 5
-  minDistance: 1
 --- !u!95 &7358754381752793044
 Animator:
   serializedVersion: 3
@@ -2100,8 +2058,6 @@ MonoBehaviour:
   timeToHide: 3
   graphicItem: {fileID: 5909259163188009062}
   collect: 0
-  lerp: 5
-  minDistance: 1
 --- !u!95 &7358754381619681360
 Animator:
   serializedVersion: 3
@@ -2148,7 +2104,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6229480711119946540}
   m_LocalRotation: {x: -0.70106226, y: -0.15133041, z: 0.2613249, w: 0.6460032}
-  m_LocalPosition: {x: 0, y: 0.35, z: 62.4}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: -26.936316, y: -26.936316, z: -26.936317}
   m_Children: []
   m_Father: {fileID: 4593031325780547771}
@@ -5276,8 +5232,6 @@ MonoBehaviour:
   timeToHide: 3
   graphicItem: {fileID: 7713733968082779530}
   collect: 0
-  lerp: 5
-  minDistance: 1
 --- !u!95 &6850779693494402492
 Animator:
   serializedVersion: 3
