@@ -184,8 +184,6 @@ MonoBehaviour:
   timeToHide: 3
   graphicItem: {fileID: 5965623535224073042}
   collect: 0
-  lerp: 5
-  minDistance: 1
 --- !u!95 &7409631978636241764
 Animator:
   serializedVersion: 3
@@ -277,8 +275,6 @@ MonoBehaviour:
   timeToHide: 3
   graphicItem: {fileID: 5965623535340585504}
   collect: 0
-  lerp: 5
-  minDistance: 1
 --- !u!95 &7409631978685645334
 Animator:
   serializedVersion: 3
@@ -370,8 +366,6 @@ MonoBehaviour:
   timeToHide: 3
   graphicItem: {fileID: 5965623535567449886}
   collect: 0
-  lerp: 5
-  minDistance: 1
 --- !u!95 &7409631978442747688
 Animator:
   serializedVersion: 3
@@ -463,8 +457,6 @@ MonoBehaviour:
   timeToHide: 3
   graphicItem: {fileID: 5965623535628101862}
   collect: 0
-  lerp: 5
-  minDistance: 1
 --- !u!95 &7409631978495142096
 Animator:
   serializedVersion: 3
@@ -556,8 +548,6 @@ MonoBehaviour:
   timeToHide: 3
   graphicItem: {fileID: 5965623535871387151}
   collect: 0
-  lerp: 5
-  minDistance: 1
 --- !u!95 &7409631979208156729
 Animator:
   serializedVersion: 3
@@ -649,8 +639,6 @@ MonoBehaviour:
   timeToHide: 3
   graphicItem: {fileID: 5965623536260500476}
   collect: 0
-  lerp: 5
-  minDistance: 1
 --- !u!95 &7409631979068787658
 Animator:
   serializedVersion: 3
@@ -742,8 +730,6 @@ MonoBehaviour:
   timeToHide: 3
   graphicItem: {fileID: 5965623536270821771}
   collect: 0
-  lerp: 5
-  minDistance: 1
 --- !u!95 &7409631979078977981
 Animator:
   serializedVersion: 3
@@ -835,8 +821,6 @@ MonoBehaviour:
   timeToHide: 3
   graphicItem: {fileID: 5965623536435325705}
   collect: 0
-  lerp: 5
-  minDistance: 1
 --- !u!95 &7409631977691589439
 Animator:
   serializedVersion: 3
@@ -928,8 +912,6 @@ MonoBehaviour:
   timeToHide: 3
   graphicItem: {fileID: 5965623536567997041}
   collect: 0
-  lerp: 5
-  minDistance: 1
 --- !u!95 &7409631977287520839
 Animator:
   serializedVersion: 3
@@ -1021,8 +1003,6 @@ MonoBehaviour:
   timeToHide: 3
   graphicItem: {fileID: 5965623536584350948}
   collect: 0
-  lerp: 5
-  minDistance: 1
 --- !u!95 &7409631977303743698
 Animator:
   serializedVersion: 3
@@ -1114,8 +1094,6 @@ MonoBehaviour:
   timeToHide: 3
   graphicItem: {fileID: 5965623536843607646}
   collect: 0
-  lerp: 5
-  minDistance: 1
 --- !u!95 &7409631978099871336
 Animator:
   serializedVersion: 3
@@ -1207,8 +1185,6 @@ MonoBehaviour:
   timeToHide: 3
   graphicItem: {fileID: 5965623536956129421}
   collect: 0
-  lerp: 5
-  minDistance: 1
 --- !u!95 &7409631978145415355
 Animator:
   serializedVersion: 3
@@ -1300,8 +1276,6 @@ MonoBehaviour:
   timeToHide: 3
   graphicItem: {fileID: 5965623537004093538}
   collect: 0
-  lerp: 5
-  minDistance: 1
 --- !u!95 &7409631978193412180
 Animator:
   serializedVersion: 3
@@ -1393,8 +1367,6 @@ MonoBehaviour:
   timeToHide: 3
   graphicItem: {fileID: 5965623537039284781}
   collect: 0
-  lerp: 5
-  minDistance: 1
 --- !u!95 &7409631978295581211
 Animator:
   serializedVersion: 3
@@ -1486,8 +1458,6 @@ MonoBehaviour:
   timeToHide: 3
   graphicItem: {fileID: 5965623537155781930}
   collect: 0
-  lerp: 5
-  minDistance: 1
 --- !u!95 &7409631977808098588
 Animator:
   serializedVersion: 3
@@ -1579,8 +1549,6 @@ MonoBehaviour:
   timeToHide: 3
   graphicItem: {fileID: 5965623537181104838}
   collect: 0
-  lerp: 5
-  minDistance: 1
 --- !u!95 &7409631977900530416
 Animator:
   serializedVersion: 3
@@ -1672,8 +1640,6 @@ MonoBehaviour:
   timeToHide: 3
   graphicItem: {fileID: 5965623537291368562}
   collect: 0
-  lerp: 5
-  minDistance: 1
 --- !u!95 &7409631977943816260
 Animator:
   serializedVersion: 3
@@ -1765,8 +1731,6 @@ MonoBehaviour:
   timeToHide: 3
   graphicItem: {fileID: 5965623537303027744}
   collect: 0
-  lerp: 5
-  minDistance: 1
 --- !u!95 &7409631978030972950
 Animator:
   serializedVersion: 3
@@ -1858,8 +1822,6 @@ MonoBehaviour:
   timeToHide: 3
   graphicItem: {fileID: 5965623537330188674}
   collect: 0
-  lerp: 5
-  minDistance: 1
 --- !u!95 &7409631977982603700
 Animator:
   serializedVersion: 3
@@ -1951,8 +1913,6 @@ MonoBehaviour:
   timeToHide: 3
   graphicItem: {fileID: 5965623537350553036}
   collect: 0
-  lerp: 5
-  minDistance: 1
 --- !u!95 &7409631978002869754
 Animator:
   serializedVersion: 3
@@ -4641,8 +4601,6 @@ MonoBehaviour:
   timeToHide: 3
   graphicItem: {fileID: 7766300555402134499}
   collect: 0
-  lerp: 5
-  minDistance: 1
 --- !u!95 &6906580968332100565
 Animator:
   serializedVersion: 3
@@ -4992,7 +4950,6 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 6556742817778469756}
-  - {fileID: 5048518732264983534}
   m_Father: {fileID: 7766300556337687390}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -5061,70 +5018,4 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 5119297365573109731, guid: 675056dbd0c7bf845b14f4cf35d27091, type: 3}
   m_PrefabInstance: {fileID: 2158736110796377247}
-  m_PrefabAsset: {fileID: 0}
---- !u!1001 &9044644263730863633
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 2812963766754872867}
-    m_Modifications:
-    - target: {fileID: 4290515375130187200, guid: e514c3606c7eec948a80411b11df44ac, type: 3}
-      propertyPath: m_Name
-      value: PFB_PowerUp_Speed
-      objectReference: {fileID: 0}
-    - target: {fileID: 4290515375130187263, guid: e514c3606c7eec948a80411b11df44ac, type: 3}
-      propertyPath: m_RootOrder
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4290515375130187263, guid: e514c3606c7eec948a80411b11df44ac, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.04
-      objectReference: {fileID: 0}
-    - target: {fileID: 4290515375130187263, guid: e514c3606c7eec948a80411b11df44ac, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 1.97
-      objectReference: {fileID: 0}
-    - target: {fileID: 4290515375130187263, guid: e514c3606c7eec948a80411b11df44ac, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4290515375130187263, guid: e514c3606c7eec948a80411b11df44ac, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 2.529
-      objectReference: {fileID: 0}
-    - target: {fileID: 4290515375130187263, guid: e514c3606c7eec948a80411b11df44ac, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4290515375130187263, guid: e514c3606c7eec948a80411b11df44ac, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4290515375130187263, guid: e514c3606c7eec948a80411b11df44ac, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4290515375130187263, guid: e514c3606c7eec948a80411b11df44ac, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4290515375130187263, guid: e514c3606c7eec948a80411b11df44ac, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4290515375130187263, guid: e514c3606c7eec948a80411b11df44ac, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4290515375130187263, guid: e514c3606c7eec948a80411b11df44ac, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: e514c3606c7eec948a80411b11df44ac, type: 3}
---- !u!4 &5048518732264983534 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 4290515375130187263, guid: e514c3606c7eec948a80411b11df44ac, type: 3}
-  m_PrefabInstance: {fileID: 9044644263730863633}
   m_PrefabAsset: {fileID: 0}
