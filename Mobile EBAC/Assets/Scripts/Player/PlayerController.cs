@@ -82,7 +82,7 @@ public class PlayerController : Singleton<PlayerController>
             {
                 if (victory!= null) victory.Play();
 
-                Invoke("EndGame", .5f);
+                Invoke("EndGame", 2f);
             }
            
 
