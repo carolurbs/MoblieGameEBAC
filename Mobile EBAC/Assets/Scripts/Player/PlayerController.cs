@@ -32,6 +32,10 @@ public class PlayerController : Singleton<PlayerController>
     [Header("Audio Source")]
     public AudioSource failure;
     public AudioSource victory;
+    [Header("VFX")]
+    public ParticleSystem fireworkOneVFX;
+    public ParticleSystem fireworkTwoVFX;
+    public ParticleSystem deathVFX; 
 
     public void Start()
     {
@@ -63,6 +67,7 @@ public class PlayerController : Singleton<PlayerController>
             {
                 MoveBack();
                 if (failure != null) failure.Play();
+                if (deathVFX != null) deathVFX.Play();
                 animator.SetTrigger(triggerDeath);
                 _canRun = false;
                 Invoke("EndGame", 5f);
@@ -81,8 +86,9 @@ public class PlayerController : Singleton<PlayerController>
         {
             {
                 if (victory!= null) victory.Play();
-
-                Invoke("EndGame", 2f);
+                if (fireworkOneVFX != null) fireworkOneVFX.Play();
+                if(fireworkTwoVFX != null) fireworkTwoVFX.Play();
+                Invoke("EndGame", 1f);
             }
            
 
