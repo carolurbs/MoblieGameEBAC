@@ -72,7 +72,7 @@ MonoBehaviour:
   compareTag: Player
   timeToHide: 3
   graphicItem: {fileID: 2638279852766966121}
-  duration: 0
+  duration: 3
   powerUPVFX: {fileID: 8962336066821720481}
   PowerUpSFX: {fileID: 2157540939965502165}
 --- !u!1001 &2908309812757630008

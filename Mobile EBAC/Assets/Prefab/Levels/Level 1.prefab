@@ -71,6 +71,8 @@ MonoBehaviour:
   timeToHide: 3
   graphicItem: {fileID: 552072538144010709}
   duration: 3
+  powerUPVFX: {fileID: 0}
+  PowerUpSFX: {fileID: 0}
 --- !u!1 &3028260003176893285
 GameObject:
   m_ObjectHideFlags: 0
@@ -142,6 +144,8 @@ MonoBehaviour:
   timeToHide: 3
   graphicItem: {fileID: 0}
   duration: 3
+  powerUPVFX: {fileID: 0}
+  PowerUpSFX: {fileID: 0}
   sizeAmount: 7
 --- !u!1 &3681021705645673394
 GameObject:
@@ -214,6 +218,8 @@ MonoBehaviour:
   timeToHide: 3
   graphicItem: {fileID: 3681021705645673394}
   duration: 3
+  powerUPVFX: {fileID: 0}
+  PowerUpSFX: {fileID: 0}
   amountToFly: 3
   animationDuration: 0.1
   ease: 27
@@ -2519,6 +2525,8 @@ MonoBehaviour:
   timeToHide: 3
   graphicItem: {fileID: 6821198599921788579}
   collect: 0
+  coinVFX: {fileID: 0}
+  coinSFX: {fileID: 0}
 --- !u!95 &7689799631692867221
 Animator:
   serializedVersion: 3
@@ -2610,6 +2618,8 @@ MonoBehaviour:
   timeToHide: 3
   graphicItem: {fileID: 6821198599928374484}
   collect: 0
+  coinVFX: {fileID: 0}
+  coinSFX: {fileID: 0}
 --- !u!95 &7689799631699322082
 Animator:
   serializedVersion: 3
@@ -2701,6 +2711,8 @@ MonoBehaviour:
   timeToHide: 3
   graphicItem: {fileID: 6821198600336067408}
   collect: 0
+  coinVFX: {fileID: 0}
+  coinSFX: {fileID: 0}
 --- !u!95 &7689799631561886566
 Animator:
   serializedVersion: 3
@@ -2792,6 +2804,8 @@ MonoBehaviour:
   timeToHide: 3
   graphicItem: {fileID: 6821198600495433145}
   collect: 0
+  coinVFX: {fileID: 0}
+  coinSFX: {fileID: 0}
 --- !u!95 &7689799632325264783
 Animator:
   serializedVersion: 3
@@ -2883,6 +2897,8 @@ MonoBehaviour:
   timeToHide: 3
   graphicItem: {fileID: 6821198600564605505}
   collect: 0
+  coinVFX: {fileID: 0}
+  coinSFX: {fileID: 0}
 --- !u!95 &7689799632402694775
 Animator:
   serializedVersion: 3
@@ -2974,6 +2990,8 @@ MonoBehaviour:
   timeToHide: 3
   graphicItem: {fileID: 6821198600717078127}
   collect: 0
+  coinVFX: {fileID: 0}
+  coinSFX: {fileID: 0}
 --- !u!95 &7689799631951318617
 Animator:
   serializedVersion: 3
@@ -3065,6 +3083,8 @@ MonoBehaviour:
   timeToHide: 3
   graphicItem: {fileID: 6821198600875356031}
   collect: 0
+  coinVFX: {fileID: 0}
+  coinSFX: {fileID: 0}
 --- !u!95 &7689799632109465417
 Animator:
   serializedVersion: 3
@@ -3156,6 +3176,8 @@ MonoBehaviour:
   timeToHide: 3
   graphicItem: {fileID: 6821198600891205133}
   collect: 0
+  coinVFX: {fileID: 0}
+  coinSFX: {fileID: 0}
 --- !u!95 &7689799632192423483
 Animator:
   serializedVersion: 3
@@ -3247,6 +3269,8 @@ MonoBehaviour:
   timeToHide: 3
   graphicItem: {fileID: 6821198600959602047}
   collect: 0
+  coinVFX: {fileID: 0}
+  coinSFX: {fileID: 0}
 --- !u!95 &7689799630650338633
 Animator:
   serializedVersion: 3
@@ -3338,6 +3362,8 @@ MonoBehaviour:
   timeToHide: 3
   graphicItem: {fileID: 6821198600991202525}
   collect: 0
+  coinVFX: {fileID: 0}
+  coinSFX: {fileID: 0}
 --- !u!95 &7689799630606408939
 Animator:
   serializedVersion: 3
@@ -3429,6 +3455,8 @@ MonoBehaviour:
   timeToHide: 3
   graphicItem: {fileID: 6821198601004482707}
   collect: 0
+  coinVFX: {fileID: 0}
+  coinSFX: {fileID: 0}
 --- !u!95 &7689799630619590821
 Animator:
   serializedVersion: 3
@@ -3520,6 +3548,8 @@ MonoBehaviour:
   timeToHide: 3
   graphicItem: {fileID: 6821198601080321325}
   collect: 0
+  coinVFX: {fileID: 0}
+  coinSFX: {fileID: 0}
 --- !u!95 &7689799630695560475
 Animator:
   serializedVersion: 3
@@ -3611,6 +3641,8 @@ MonoBehaviour:
   timeToHide: 3
   graphicItem: {fileID: 6821198601106831257}
   collect: 0
+  coinVFX: {fileID: 0}
+  coinSFX: {fileID: 0}
 --- !u!95 &7689799630789048239
 Animator:
   serializedVersion: 3
@@ -3702,6 +3734,8 @@ MonoBehaviour:
   timeToHide: 3
   graphicItem: {fileID: 6821198601216039029}
   collect: 0
+  coinVFX: {fileID: 0}
+  coinSFX: {fileID: 0}
 --- !u!95 &7689799630831147075
 Animator:
   serializedVersion: 3
@@ -3793,6 +3827,8 @@ MonoBehaviour:
   timeToHide: 3
   graphicItem: {fileID: 6821198601231873906}
   collect: 0
+  coinVFX: {fileID: 0}
+  coinSFX: {fileID: 0}
 --- !u!95 &7689799630377219908
 Animator:
   serializedVersion: 3
@@ -3884,6 +3920,8 @@ MonoBehaviour:
   timeToHide: 3
   graphicItem: {fileID: 6821198601289180238}
   collect: 0
+  coinVFX: {fileID: 0}
+  coinSFX: {fileID: 0}
 --- !u!95 &7689799630442914936
 Animator:
   serializedVersion: 3
@@ -3975,6 +4013,8 @@ MonoBehaviour:
   timeToHide: 3
   graphicItem: {fileID: 6821198601302048819}
   collect: 0
+  coinVFX: {fileID: 0}
+  coinSFX: {fileID: 0}
 --- !u!95 &7689799630455914501
 Animator:
   serializedVersion: 3
@@ -4066,6 +4106,8 @@ MonoBehaviour:
   timeToHide: 3
   graphicItem: {fileID: 6821198601334033725}
   collect: 0
+  coinVFX: {fileID: 0}
+  coinSFX: {fileID: 0}
 --- !u!95 &7689799630412401931
 Animator:
   serializedVersion: 3
@@ -4157,6 +4199,8 @@ MonoBehaviour:
   timeToHide: 3
   graphicItem: {fileID: 6821198601405522827}
   collect: 0
+  coinVFX: {fileID: 0}
+  coinSFX: {fileID: 0}
 --- !u!95 &7689799630492246973
 Animator:
   serializedVersion: 3
@@ -4248,6 +4292,8 @@ MonoBehaviour:
   timeToHide: 3
   graphicItem: {fileID: 6821198601415585234}
   collect: 0
+  coinVFX: {fileID: 0}
+  coinSFX: {fileID: 0}
 --- !u!95 &7689799630493920740
 Animator:
   serializedVersion: 3
@@ -4339,6 +4385,8 @@ MonoBehaviour:
   timeToHide: 3
   graphicItem: {fileID: 6821198601444352769}
   collect: 0
+  coinVFX: {fileID: 0}
+  coinSFX: {fileID: 0}
 --- !u!95 &7689799630589666103
 Animator:
   serializedVersion: 3
@@ -4430,6 +4478,8 @@ MonoBehaviour:
   timeToHide: 3
   graphicItem: {fileID: 6821198601642135195}
   collect: 0
+  coinVFX: {fileID: 0}
+  coinSFX: {fileID: 0}
 --- !u!95 &7689799631324319405
 Animator:
   serializedVersion: 3
@@ -4521,6 +4571,8 @@ MonoBehaviour:
   timeToHide: 3
   graphicItem: {fileID: 6821198601703063342}
   collect: 0
+  coinVFX: {fileID: 0}
+  coinSFX: {fileID: 0}
 --- !u!95 &7689799631385378584
 Animator:
   serializedVersion: 3
@@ -4612,6 +4664,8 @@ MonoBehaviour:
   timeToHide: 3
   graphicItem: {fileID: 6821198601720394171}
   collect: 0
+  coinVFX: {fileID: 0}
+  coinSFX: {fileID: 0}
 --- !u!95 &7689799631402578317
 Animator:
   serializedVersion: 3
@@ -4703,6 +4757,8 @@ MonoBehaviour:
   timeToHide: 3
   graphicItem: {fileID: 6821198601835857494}
   collect: 0
+  coinVFX: {fileID: 0}
+  coinSFX: {fileID: 0}
 --- !u!95 &7689799630981170784
 Animator:
   serializedVersion: 3
@@ -5008,6 +5064,8 @@ MonoBehaviour:
   timeToHide: 3
   graphicItem: {fileID: 7468257042333396668}
   collect: 0
+  coinVFX: {fileID: 0}
+  coinSFX: {fileID: 0}
 --- !u!95 &6033415917249375882
 Animator:
   serializedVersion: 3
@@ -6252,6 +6310,18 @@ PrefabInstance:
     - target: {fileID: 695771592078158351, guid: e514c3606c7eec948a80411b11df44ac, type: 3}
       propertyPath: m_Name
       value: PFB_PowerUP_Speed (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1910499981995747573, guid: e514c3606c7eec948a80411b11df44ac, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.0103
+      objectReference: {fileID: 0}
+    - target: {fileID: 1910499981995747573, guid: e514c3606c7eec948a80411b11df44ac, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.0084
+      objectReference: {fileID: 0}
+    - target: {fileID: 1910499981995747573, guid: e514c3606c7eec948a80411b11df44ac, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.0001
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e514c3606c7eec948a80411b11df44ac, type: 3}

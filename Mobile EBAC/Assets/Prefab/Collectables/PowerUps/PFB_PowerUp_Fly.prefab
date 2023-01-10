@@ -71,7 +71,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   compareTag: Player
   timeToHide: 3
-  graphicItem: {fileID: 0}
+  graphicItem: {fileID: 8094476334298645901}
   duration: 3
   powerUPVFX: {fileID: 2386610109584498027}
   PowerUpSFX: {fileID: 6100611904220273504}

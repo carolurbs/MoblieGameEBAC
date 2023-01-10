@@ -113,10 +113,10 @@ MonoBehaviour:
   compareTag: CoinCollector
   timeToHide: 3
   graphicItem: {fileID: 695771592078158351}
-  duration: 0
+  duration: 3
   powerUPVFX: {fileID: 239551536587968961}
   PowerUpSFX: {fileID: 1365534963904080836}
-  amountToSpeed: 0
+  amountToSpeed: 3
 --- !u!1001 &8106242337216469882
 PrefabInstance:
   m_ObjectHideFlags: 0
